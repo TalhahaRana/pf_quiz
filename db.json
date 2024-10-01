@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "password": "adminpass",
+      "role": "admin",
+      "token": "admin-token"
+    },
+    {
+      "id": "2",
+      "email": "manager@example.com",
+      "password": "managerpass",
+      "role": "manager",
+      "token": "manager-token"
+    },
+    {
+      "id": "3",
+      "email": "student@example.com",
+      "password": "studentpass",
+      "role": "student",
+      "token": "student-token"
+    }
+  ],
+  "students": [
+    {
+      "id": "a911",
+      "name": "Muhammad Talha",
+      "email": "talhaha.rana1@gmail.com",
+      "password": "studentpass1", 
+      "status": "Approved",
+      "quizzes": {
+        "assigned": [1, 2],
+        "pending": [],
+        "attempted": []
+      }
+    },
+    {
+      "id": "d0d3",
+      "name": "saad",
+      "email": "saad@gmail.com",
+      "status": "Approved"
+    },
+    {
+      "id": "8d0b",
+      "name": "Ali ali",
+      "email": "ali@abc.com",
+      "status": "Approved"
+    },
+    {
+      "id": "b8cd",
+      "name": "Mack Auto Shipping",
+      "email": "info@mackautoshipping.services",
+      "status": "Approved"
+    },
+    {
+      "id": "19a0",
+      "name": "Mack Auto Shipping",
+      "email": "info@mackautoshipping.services",
+      "status": "pending"
+    }
+  ],
+  "managers": [
+    {
+      "id": "e7c1",
+      "email": "talharana1@outlook.com"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "1",
+      "title": "Math Quiz",
+      "assignedTo": [
+        3
+      ],
+      "dueDate": "2024-09-30"
+    },
+    {
+      "id": "2",
+      "title": "Science Quiz",
+      "assignedTo": [
+        3
+      ],
+      "dueDate": "2024-10-05"
+    }
+  ],
+  "quiz_subjects": [
+    {
+      "id": "1",
+      "name": "Math Quiz"
+    },
+    {
+      "id": "2",
+      "name": "Science Quiz"
+    },
+    {
+      "id": "3",
+      "name": "History Quiz"
+    }
+  ]
+}
